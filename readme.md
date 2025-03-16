@@ -54,21 +54,5 @@ for l in range(n - 1):
 - 🏗️ Modify the program to accept user input for the height of the diamond.
 - 🎨 Try different characters instead of `*` to create custom patterns.
 
-## 🔡 Example with User Input
-```python
-height = int(input("Enter the height of the diamond: "))
-
-# Upper Pyramid
-for i in range(height):
-    spaces = ' ' * (height - i - 1)
-    stars = '*' * (2 * i + 1)
-    print(spaces + stars)
-
-# Lower Inverted Pyramid
-for i in range(height - 2, -1, -1):
-    spaces = ' ' * (height - i - 1)
-    stars = '*' * (2 * i + 1)
-    print(spaces + stars)
-```
 
 🎉 Happy Coding! 🚀
